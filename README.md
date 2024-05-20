@@ -1,7 +1,7 @@
 # LoginAndRegister
 
 <p align="center">
-  <img src="screenshot1" width="1000" title="Flutter Chat UI">
+  <img src="screenshot" width="1000" title="Screenshot">
 </p>
 
 Uses PrimeNG v17.17.0 and PrimeFlex
