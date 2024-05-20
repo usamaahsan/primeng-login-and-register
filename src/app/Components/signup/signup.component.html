@@ -1,0 +1,42 @@
+<p-toast></p-toast>
+
+<div class="grid full-page-div">
+    <div class="col-12 md:col-5 lg:col-5 xl:col-5 bg-white flex flex-column form-section layered-background" style="height: 100vh">
+        <h1 style="margin-bottom: 0px;">Register</h1>
+        <p class="subheading">Don't have an account? Create your account, it takes less than a minute</p>
+
+    <form (ngSubmit) = "register()">
+
+        <div class="flex flex-column gap-1 mb-1">
+            <label class="label" for="name">Name</label>
+            <input pInputText id="name" [(ngModel)]="name" name="name" required/>
+        </div>
+
+        <div class="flex flex-column gap-1 mb-1">
+            <label class="label" for="email">Email</label>
+            <input pInputText id="email" [(ngModel)]="email" name="email" required/>
+        </div>
+
+        <div class="flex flex-column gap-1 mb-5">
+            <label class="label" for="password">Password</label>
+            <input pInputText type="password" id="password" [(ngModel)]="password" name = "password" required/>
+        </div>
+
+        <div class="flex flex-column gap-4">
+            <div class = "flex justify-content-start">
+                <button pButton pRipple type="submit">
+                    <span class="loginButton">Register</span>
+                </button>
+            </div>
+    
+            <a routerLink = "" class = "label">Back to login</a>
+        </div>
+
+
+    </form>
+
+    </div>
+    <div class="col-12 md:col-7 lg:col-7 xl:col-7 bg-image-full">
+
+    </div>
+</div>

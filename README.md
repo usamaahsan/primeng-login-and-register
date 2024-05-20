@@ -1,5 +1,11 @@
 # LoginAndRegister
 
+Uses PrimeNG v17.17.0 and PrimeFlex
+
+PrimeNG official website and documentation (https://primeng.org/installation)
+
+PrimeFlex official website and documentation (https://primeflex.org/installation)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
 
 ## Development server

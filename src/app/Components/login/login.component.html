@@ -1,0 +1,41 @@
+<p-toast></p-toast>
+
+<div class="grid full-page-div">
+    <div class="col-12 md:col-5 lg:col-5 xl:col-5 bg-white flex flex-column form-section layered-background" style="height: 100vh">
+        <h2 class="com-title">Vertix Digital</h2>
+        <h1 style="margin-bottom: 0px;">Welcome! Let's Pick Up Where You Left Off.</h1>
+        <p class="subheading">Login with your credentials to continue</p>
+
+    <form (ngSubmit) = "login()">
+
+        <div class="flex flex-column gap-1 mb-1">
+            <label class="label" for="email">Email</label>
+            <input pInputText id="email" [(ngModel)]="email" name="email" required/>
+        </div>
+
+        <div class="flex flex-column gap-1 mb-3">
+            <label class="label" for="password">Password</label>
+            <input pInputText type="password" id="password" [(ngModel)]="password" name = "password" required/>
+        </div>
+
+        <div class="flex flex-row justify-content-between mb-5">
+            <p-checkbox label="Remember Me" [binary]="true" inputId="binary" class="label" [(ngModel)]="rememberMe" name = "rememberme"/>
+            <a (click) = "forgotPasswordClicked()" class = "label" style="text-decoration: underline;">Forgot Password?</a>
+        </div>
+
+        <div class="flex justify-content-start flex-row gap-2">
+            <button pButton pRipple type="submit">
+                <span class="loginButton">Login</span>
+            </button>
+            <button pButton pRipple [outlined]="true" (click) = "register()" type="button">
+                <span class="loginButton">Sign Up</span>
+            </button>
+        </div>
+
+    </form>
+
+    </div>
+    <div class="col-12 md:col-7 lg:col-7 xl:col-7 bg-image-full">
+
+    </div>
+</div>

@@ -1,0 +1,55 @@
+
+  .full-page-div {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+  }
+
+  .bg-image-full {
+    background-image: url('/assets/img3.jpeg');
+    background-size: cover; /* Adjust to fit the div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh;
+}
+
+.form-section{
+  padding: 46px;
+  padding-right: 64px;
+  background-color: #f7fafc;
+}
+
+.com-title{
+  color: #305fff;
+  margin-bottom: 24px;
+}
+
+.subheading{
+  color: gray; margin-bottom: 46px; padding: 0;
+}
+
+.loginButton{
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0;
+  margin: 0;
+}
+
+/* .layered-background {
+  position: relative;
+  background-image: url('path/to/your/image1.jpg'), url('path/to/your/image2.png');
+  background-size: cover, contain;
+  background-position: center center, top left;
+  background-repeat: no-repeat, no-repeat; 
+} */
+
+.layered-background {
+  position: relative;
+  background-image: url('/assets/beams.jpg');
+  background-size: cover; /* Adjust as needed */
+  background-position: center center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+}
