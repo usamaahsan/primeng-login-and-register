@@ -1,4 +1,4 @@
-# LoginAndRegister
+# Responsive Angular Login and Register UI
 
 <p align="center">
   <img src="screenshot.png" width="1000" title="Screenshot">
